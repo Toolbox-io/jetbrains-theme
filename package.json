@@ -1,0 +1,21 @@
+{
+  "name": "jetbrains-theme",
+  "displayName": "jetbrains-theme",
+  "description": "A JetBrains Theme for VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JetBrains Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JetBrains Theme-color-theme.json"
+      }
+    ]
+  }
+}
